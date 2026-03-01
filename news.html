@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News — Everything's AI</title>
+  <meta name="description" content="Latest news, updates, and announcements from Everything's AI." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="nav scrolled" id="nav">
+    <div class="nav__container">
+      <a href="index.html" class="nav__logo">
+        <img src="logo-light.svg" alt="Everything's AI" class="nav__logo-img" />
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html#about" class="nav__link">About</a></li>
+        <li><a href="index.html#incubator" class="nav__link">Incubator</a></li>
+        <li><a href="index.html#academy" class="nav__link">Academy</a></li>
+        <li><a href="index.html#community" class="nav__link">Community</a></li>
+        <li><a href="news.html" class="nav__link nav__link--active">News</a></li>
+        <li><a href="index.html#contact" class="nav__link nav__link--cta">Get Started</a></li>
+      </ul>
+      <button class="nav__burger" id="navBurger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==================== NEWS HEADER ==================== -->
+  <section class="news-hero">
+    <div class="container">
+      <div class="section-label">Latest Updates</div>
+      <h1 class="section-title">
+        News & <span class="text-accent">Announcements</span>
+      </h1>
+      <p class="news-hero__sub">
+        Stay updated with the latest from Everything's AI — launches, events, partnerships, and more.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== NEWS GRID ==================== -->
+  <section class="news-grid-section">
+    <div class="container">
+      <div class="news-grid" id="newsGrid">
+        <!-- News cards are loaded dynamically from markdown files -->
+        <p class="news-grid__loading">Loading news...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__layout">
+        <div class="footer__brand">
+          <a href="index.html" class="nav__logo footer__logo">
+            <img src="logo.svg" alt="Everything's AI" class="nav__logo-img" />
+          </a>
+          <p class="footer__tagline">
+            Building the next generation of AI talent in the Philippines.
+          </p>
+          <div class="footer__location">
+            <span>📍</span> Philippines
+          </div>
+        </div>
+        <div class="footer__links">
+          <div class="footer__col">
+            <h4>Programs</h4>
+            <ul>
+              <li><a href="index.html#incubator">AI Incubator</a></li>
+              <li><a href="index.html#academy">Academy Tutor</a></li>
+              <li><a href="index.html#community">Community</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="index.html#about">About Us</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+              <li><a href="mailto:support@e-ai.ph">Email Us</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Join Us</h4>
+            <ul>
+              <li><a href="mailto:support@e-ai.ph?subject=Incubator Application">Apply to Incubator</a></li>
+              <li><a href="mailto:support@e-ai.ph?subject=Academy Enrollment">Enroll in Academy</a></li>
+              <li><a href="mailto:support@e-ai.ph?subject=Partnership">Partner With Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Everything's AI. All rights reserved.</p>
+        <p>Made with ❤️ in the Philippines</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="news-loader.js"></script>
+</body>
+</html>

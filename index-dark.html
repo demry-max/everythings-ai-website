@@ -16,14 +16,13 @@
   <nav class="nav" id="nav">
     <div class="nav__container">
       <a href="#home" class="nav__logo">
-        <img src="logo-light.svg" alt="Everything's AI" class="nav__logo-img" />
+        <img src="logo.svg" alt="Everything's AI" class="nav__logo-img" />
       </a>
       <ul class="nav__links" id="navLinks">
         <li><a href="#about" class="nav__link">About</a></li>
         <li><a href="#incubator" class="nav__link">Incubator</a></li>
         <li><a href="#academy" class="nav__link">Academy</a></li>
         <li><a href="#community" class="nav__link">Community</a></li>
-        <li><a href="news.html" class="nav__link">News</a></li>
         <li><a href="#contact" class="nav__link nav__link--cta">Get Started</a></li>
       </ul>
       <button class="nav__burger" id="navBurger" aria-label="Toggle menu">
@@ -91,35 +90,36 @@
             <span class="text-accent">Real Innovation</span>
           </h2>
           <p class="about__lead">
-            Everything's AI is a future-focused AI education and innovation company based in the Philippines.
-            We exist to build the next generation of AI talent and elevate the Philippines' global competitiveness in the era of artificial intelligence.
+            Everything's AI exists at the intersection of AI education, entrepreneurship, and systems innovation.
+            We believe the Philippines has the talent to compete globally — and we're here to unlock it.
           </p>
-          <p class="about__body" id="aboutPreview">
-            Artificial Intelligence is not just a technology shift — it is an economic shift. Nations that cultivate AI literacy, AI builders, and AI-driven entrepreneurs will lead the next global cycle. Our mission is to ensure the Philippines is not left behind.
+          <p class="about__body">
+            From hackathons that unearth untapped builders, to structured curriculums that teach children to think
+            with AI — we are building an ecosystem where Filipino talent doesn't just consume AI, but creates it.
           </p>
-          <div class="about__full" id="aboutFull" style="display: none;">
-            <p class="about__body">
-              Everything's AI operates at the intersection of AI Education and AI Entrepreneurship.
-              Through our structured AI Academy and Incubation Programs, we equip students, professionals, and founders with the tools, thinking frameworks, and execution capability required in an AI-driven world.
-            </p>
-            <p class="about__body">
-              We do not simply teach tools. We cultivate AI thinkers.
-            </p>
-            <p class="about__body">Our long-term objective is to:</p>
-            <ul class="about__list">
-              <li>Develop AI-native youth (ages 8–16)</li>
-              <li>Upskill professionals for AI transformation</li>
-              <li>Support AI-powered startups</li>
-              <li>Contribute to national talent infrastructure</li>
-            </ul>
-            <p class="about__body">
-              By strengthening AI capability at multiple levels of society, we aim to enhance the Philippines' global standing in technology, innovation, and economic resilience.
-            </p>
-            <p class="about__body">
-              Everything's AI is not just an academy. It is a platform for future builders.
-            </p>
+          <div class="about__pillars">
+            <div class="pillar">
+              <div class="pillar__icon">🎓</div>
+              <div>
+                <strong>AI Education</strong>
+                <p>Structured learning for all ages</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar__icon">🚀</div>
+              <div>
+                <strong>AI Entrepreneurship</strong>
+                <p>From idea to funded startup</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar__icon">⚙️</div>
+              <div>
+                <strong>AI Systems Innovation</strong>
+                <p>Building real, scalable solutions</p>
+              </div>
+            </div>
           </div>
-          <button class="about__read-more btn btn--ghost" id="aboutToggle" onclick="toggleAbout()">Read More</button>
         </div>
         <div class="about__visual" data-animate>
           <div class="about__card about__card--main">
@@ -138,22 +138,6 @@
           <div class="about__card about__card--float about__card--float-3">
             <span class="about__card-float-icon">💡</span>
             <span>Innovation</span>
-          </div>
-        </div>
-      </div>
-      <div class="about__pillars">
-        <div class="pillar">
-          <div class="pillar__icon">🎓</div>
-          <div>
-            <strong>AI Education</strong>
-            <p>Structured learning for all ages</p>
-          </div>
-        </div>
-        <div class="pillar">
-          <div class="pillar__icon">🚀</div>
-          <div>
-            <strong>AI Entrepreneurship</strong>
-            <p>From idea to funded startup</p>
           </div>
         </div>
       </div>
@@ -179,7 +163,12 @@
     <div class="container">
       <div class="program__layout program__layout--left">
         <div class="program__visual" data-animate>
-          <img src="icon-incubator.png" alt="AI Incubator" class="program__visual-img" />
+          <div class="program__visual-box program__visual-box--blue">
+            <div class="program__icon-large">🚀</div>
+            <div class="program__visual-lines">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
           <div class="program__feature-cards">
             <div class="feature-card" data-delay="0">
               <span class="feature-card__icon">🏆</span>
@@ -197,10 +186,6 @@
               <span class="feature-card__icon">🌐</span>
               <span>Community</span>
             </div>
-          </div>
-          <div class="program__actions" style="margin-top: 24px;">
-            <a href="#contact" class="btn btn--primary">Apply to Incubator</a>
-            <a href="#contact" class="btn btn--ghost">Learn More</a>
           </div>
         </div>
         <div class="program__content" data-animate>
@@ -239,6 +224,10 @@
               </div>
             </li>
           </ul>
+          <div class="program__actions">
+            <a href="#contact" class="btn btn--primary">Apply to Incubator</a>
+            <a href="#contact" class="btn btn--ghost">Learn More</a>
+          </div>
         </div>
       </div>
     </div>
@@ -289,9 +278,19 @@
               </div>
             </div>
           </div>
+          <div class="program__actions">
+            <a href="#contact" class="btn btn--primary">Enroll Your Child</a>
+            <a href="#contact" class="btn btn--ghost">View Curriculum</a>
+          </div>
         </div>
         <div class="program__visual" data-animate>
-          <img src="icon-academy.png" alt="Academy Tutor" class="program__visual-img" />
+          <div class="program__visual-box program__visual-box--purple">
+            <div class="program__icon-large">🎓</div>
+            <div class="program__visual-dots">
+              <span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
           <div class="academy__visual-stats">
             <div class="academy__stat">
               <strong>8</strong>
@@ -305,10 +304,6 @@
               <strong>🇵🇭</strong>
               <span>PH-Focused</span>
             </div>
-          </div>
-          <div class="program__actions" style="margin-top: 24px;">
-            <a href="#contact" class="btn btn--primary">Enroll Your Child</a>
-            <a href="#contact" class="btn btn--ghost">View Curriculum</a>
           </div>
         </div>
       </div>
@@ -363,7 +358,7 @@
     </div>
     <div class="container">
       <div class="cta__inner" data-animate>
-        <div class="section-label">Get Started</div>
+        <div class="section-label section-label--light">Get Started</div>
         <h2 class="cta__title">
           Ready to Build the Future?
         </h2>
@@ -376,24 +371,24 @@
             <div class="cta__card-icon">🚀</div>
             <h3>Join the Incubator</h3>
             <p>For builders, founders, and AI enthusiasts ready to build and compete.</p>
-            <a href="mailto:support@e-ai.ph?subject=Incubator Application" class="btn btn--primary btn--full">Apply Now</a>
+            <a href="mailto:hello@everythingsai.ph?subject=Incubator Application" class="btn btn--primary btn--full">Apply Now</a>
           </div>
           <div class="cta__card cta__card--featured">
             <div class="cta__card-badge">Most Popular</div>
             <div class="cta__card-icon">🎓</div>
             <h3>Enroll in Academy</h3>
             <p>For children ages 8–16 ready to explore and build with AI.</p>
-            <a href="mailto:support@e-ai.ph?subject=Academy Enrollment" class="btn btn--primary btn--full">Enroll Now</a>
+            <a href="mailto:hello@everythingsai.ph?subject=Academy Enrollment" class="btn btn--white btn--full">Enroll Now</a>
           </div>
           <div class="cta__card">
             <div class="cta__card-icon">💬</div>
             <h3>Get in Touch</h3>
             <p>Questions? Partnerships? We'd love to hear from you.</p>
-            <a href="mailto:support@e-ai.ph" class="btn btn--ghost btn--full">Contact Us</a>
+            <a href="mailto:hello@everythingsai.ph" class="btn btn--ghost-light btn--full">Contact Us</a>
           </div>
         </div>
         <p class="cta__email">
-          Or reach us directly: <a href="mailto:support@e-ai.ph">support@e-ai.ph</a>
+          Or reach us directly: <a href="mailto:hello@everythingsai.ph">hello@everythingsai.ph</a>
         </p>
       </div>
     </div>
@@ -428,15 +423,15 @@
             <ul>
               <li><a href="#about">About Us</a></li>
               <li><a href="#contact">Contact</a></li>
-              <li><a href="mailto:support@e-ai.ph">Email Us</a></li>
+              <li><a href="mailto:hello@everythingsai.ph">Email Us</a></li>
             </ul>
           </div>
           <div class="footer__col">
             <h4>Join Us</h4>
             <ul>
-              <li><a href="mailto:support@e-ai.ph?subject=Incubator Application">Apply to Incubator</a></li>
-              <li><a href="mailto:support@e-ai.ph?subject=Academy Enrollment">Enroll in Academy</a></li>
-              <li><a href="mailto:support@e-ai.ph?subject=Partnership">Partner With Us</a></li>
+              <li><a href="mailto:hello@everythingsai.ph?subject=Incubator Application">Apply to Incubator</a></li>
+              <li><a href="mailto:hello@everythingsai.ph?subject=Academy Enrollment">Enroll in Academy</a></li>
+              <li><a href="mailto:hello@everythingsai.ph?subject=Partnership">Partner With Us</a></li>
             </ul>
           </div>
         </div>
@@ -449,18 +444,5 @@
   </footer>
 
   <script src="script.js"></script>
-  <script>
-    function toggleAbout() {
-      var full = document.getElementById('aboutFull');
-      var btn = document.getElementById('aboutToggle');
-      if (full.style.display === 'none') {
-        full.style.display = 'block';
-        btn.textContent = 'Read Less';
-      } else {
-        full.style.display = 'none';
-        btn.textContent = 'Read More';
-      }
-    }
-  </script>
 </body>
 </html>

@@ -1,0 +1,24 @@
+<svg width="400" height="120" viewBox="85 95 400 120" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="textGradientLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1A1F71"></stop>
+      <stop offset="100%" stop-color="#2F80ED"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Brand Name -->
+  <text x="100" y="150" font-family="Space Grotesk, Sora, Montserrat, sans-serif" font-size="54" fill="#1A1F71">
+        Everythings'
+  </text>
+
+  <!-- AI Bold Gradient -->
+  <text x="100" y="210" font-family="Space Grotesk, Sora, Montserrat, sans-serif" font-size="72" font-weight="800" fill="url(#textGradientLight)">
+        AI
+  </text>
+
+  <!-- Subtle Accent Node -->
+  <circle cx="355" cy="175" r="6" fill="#2F80ED"></circle>
+
+</svg>
