@@ -1,0 +1,23 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="900" height="300" fill="#0A0F1F"></rect>
+
+  <defs>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2F80ED"></stop>
+      <stop offset="100%" stop-color="#00D1FF"></stop>
+    </linearGradient>
+  </defs>
+
+  <text x="100" y="150" font-family="Space Grotesk, Sora, sans-serif" font-size="54" fill="#E6ECFF">
+        Everythings’
+  </text>
+
+  <text x="100" y="210" font-family="Space Grotesk, Sora, sans-serif" font-size="72" font-weight="800" fill="url(#textGradient)">
+        AI
+  </text>
+
+  <!-- Subtle Node Accent -->
+  <circle cx="355" cy="175" r="6" fill="#00D1FF"></circle>
+
+</svg>
