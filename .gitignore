@@ -1,1 +1,7 @@
 .vercel
+
+# Next.js
+.next
+node_modules
+.env*.local
+
