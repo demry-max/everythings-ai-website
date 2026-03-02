@@ -1392,6 +1392,10 @@ img {
 }
 
 @media (max-width: 768px) {
+  .about__pillars {
+    grid-template-columns: 1fr;
+  }
+
   .hero__title-line {
     white-space: normal;
   }
