@@ -299,6 +299,12 @@ img {
   flex-shrink: 0;
 }
 
+.nav__logo-icon {
+  height: 36px;
+  width: auto;
+  border-radius: 8px;
+}
+
 .nav__logo-img {
   height: 50px;
   width: auto;
@@ -381,6 +387,8 @@ img {
   position: absolute;
   inset: 0;
   z-index: 0;
+  background: url('hero-bg.png') center center / cover no-repeat;
+  opacity: 0.4;
 }
 
 .hero__grid {
@@ -512,6 +520,14 @@ img {
 
 .hero__stat {
   text-align: center;
+}
+
+.hero__stat-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 6px;
 }
 
 .hero__stat-num {
