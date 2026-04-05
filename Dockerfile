@@ -23,6 +23,11 @@ COPY logo-light.svg /usr/share/nginx/html/
 COPY favicon.svg /usr/share/nginx/html/
 COPY icon-academy.png /usr/share/nginx/html/
 COPY icon-incubator.png /usr/share/nginx/html/
+COPY favicon-transparent.png /usr/share/nginx/html/
+COPY hero-bg.png /usr/share/nginx/html/
+COPY stat-icon-ph.png /usr/share/nginx/html/
+COPY stat-icon-learn.png /usr/share/nginx/html/
+COPY stat-icon-builder.png /usr/share/nginx/html/
 COPY news/ /usr/share/nginx/html/news/
 
 EXPOSE 80
