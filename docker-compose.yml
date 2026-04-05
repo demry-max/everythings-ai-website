@@ -2,8 +2,10 @@ services:
   eai-website:
     build: .
     container_name: eai-website
-    ports:
-      - "8080:80"
+    expose:
+      - "80"
+    networks:
+      - shared-proxy
     restart: unless-stopped
     deploy:
       resources:
@@ -16,3 +18,7 @@ services:
       timeout: 5s
       retries: 3
       start_period: 10s
+
+networks:
+  shared-proxy:
+    external: true
