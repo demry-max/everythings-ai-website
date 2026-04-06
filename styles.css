@@ -523,11 +523,12 @@ img {
 }
 
 .hero__stat-icon {
+  display: block;
   width: 48px;
   height: 48px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 6px;
+  margin: 0 auto 6px;
 }
 
 .hero__stat-num {
