@@ -28,6 +28,10 @@ COPY hero-bg.png /usr/share/nginx/html/
 COPY stat-icon-ph.png /usr/share/nginx/html/
 COPY stat-icon-learn.png /usr/share/nginx/html/
 COPY stat-icon-builder.png /usr/share/nginx/html/
+COPY about-icon-ph.png /usr/share/nginx/html/
+COPY about-icon-builders.png /usr/share/nginx/html/
+COPY about-icon-future.png /usr/share/nginx/html/
+COPY about-icon-innovation.png /usr/share/nginx/html/
 COPY news/ /usr/share/nginx/html/news/
 
 EXPOSE 80
